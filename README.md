@@ -3,6 +3,8 @@
 A simple command line prompt enhancer that shows the state of the
 current git repo (ps1).
 
+![zsh example](https://cloud.githubusercontent.com/assets/10602/8272718/b8ad116e-181b-11e5-9ede-6a68cf5454f2.png)
+
 If the health of your git repository is ok, git-ps1 will just show you
 the current branch. If the health is bad, git-ps1 will also show 👎 next
 to the branch.
