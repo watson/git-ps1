@@ -1,6 +1,6 @@
 {
   "name": "git-ps1",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple command line prompt enhancer that shows the state of the current git repo (ps1)",
   "main": "index.js",
   "scripts": {
@@ -40,5 +40,9 @@
     "url": "https://github.com/watson/git-ps1/issues"
   },
   "homepage": "https://github.com/watson/git-ps1",
-  "preferGlobal": true
+  "preferGlobal": true,
+  "coordinates": [
+    18.4785929,
+    -69.9548926
+  ]
 }
