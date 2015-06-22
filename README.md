@@ -22,8 +22,17 @@ npm install -g git-ps1
 ## Usage
 
 After you've installed git-ps1 as a global module using the command
-above, all you need to do is modify your shell prompt and have it run
-`git-ps1`.
+above, all you need to do is modify your prompt and have it run
+`git-ps1 [format]`.
+
+`format` is optional but will be used as the 1st argument to `printf`.
+This allows you to modify the default output by padding it to your
+likings:
+
+```
+git-ps1          # will output "master"
+git-ps1 " [%s]"  # will output " [master]"
+```
 
 ### zsh
 
@@ -31,8 +40,8 @@ Add the following to your `~/.zsdrc` file:
 
 ```
 setopt promptsubst
-local gitps1='$(git-ps1)'
-export PROMPT="~%C[${gitps1}]%# "
+local gitps1='$(git-ps1 " [%s]")'
+export PROMPT="~%C${gitps1}%# "
 ```
 
 Besides the first two linces, the important part in the `export`
