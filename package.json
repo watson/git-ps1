@@ -1,6 +1,6 @@
 {
   "name": "git-ps1",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A simple command line prompt enhancer that shows the state of the current git repo (ps1)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
