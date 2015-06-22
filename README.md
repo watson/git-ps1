@@ -34,22 +34,17 @@ git-ps1          # will output "master"
 git-ps1 " [%s]"  # will output " [master]"
 ```
 
-### zsh
+### zsh example
 
 Add the following to your `~/.zshrc` file:
 
 ```
-setopt promptsubst
-local gitps1='$(git-ps1 " [%s]")'
-export PROMPT="~%C${gitps1}%# "
+setopt PROMPT_SUBST ; PS1='~%C$(git-ps1 " (%s)")%# '
 ```
 
-Besides the first two linces, the important part in the `export`
-statement is `${gitps1}` which you can just add to your existing
-`PROMPT` if you have already modified it. The above lines will modify
-your prompt to show a tilde `~` followed by the current directory name
-(`%C`), followed by `[]` optionally containing the git branch name and
-emoji and terminated by `% `.
+The above commands will modify your prompt to show a tilde (`~`)
+followed by the current directory name (`%C`) followed by the ouput of
+`git-ps1` and terminated by `% `.
 
 ## License
 
