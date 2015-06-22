@@ -34,6 +34,17 @@ git-ps1          # will output "master"
 git-ps1 " [%s]"  # will output " [master]"
 ```
 
+### bash example
+
+Add the following to your `~/.bash_profile` file:
+
+```
+PS1='\w$(git-ps1 " (%s)")\$ '
+```
+
+The above command will modify your prompt to show the current working
+directory (`\w`) followed by the ouput of `git-ps1` and terminated by `$ `.
+
 ### zsh example
 
 Add the following to your `~/.zshrc` file:
