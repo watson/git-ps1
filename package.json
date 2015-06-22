@@ -2,19 +2,18 @@
   "name": "git-ps1",
   "version": "1.0.0",
   "description": "A simple command line prompt enhancer that shows the state of the current git repo (ps1)",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "git-ps1": "index.js"
+    "git-ps1": "bin/git-ps1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/watson/git-ps1.git"
   },
   "dependencies": {
-    "git-state": "^2.0.0"
+    "git-state": "^2.2.3"
   },
   "keywords": [
     "git",

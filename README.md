@@ -42,16 +42,6 @@ your prompt to show a tilde `~` followed by the current directory name
 (`%C`), followed by `[]` optionally containing the git branch name and
 emoji and terminated by `% `.
 
-## Debugging
-
-If you see a ❗️ next the branch name it means that git-ps1 encountered
-an error. To see the error message simply run git-ps1 in verbose mode
-from within the same directory:
-
-```
-git-ps1 --verbose
-```
-
 ## License
 
 MIT
