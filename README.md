@@ -36,7 +36,7 @@ git-ps1 " [%s]"  # will output " [master]"
 
 ### zsh
 
-Add the following to your `~/.zsdrc` file:
+Add the following to your `~/.zshrc` file:
 
 ```
 setopt promptsubst
