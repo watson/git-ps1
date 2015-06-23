@@ -15,7 +15,11 @@ done
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 if $DIR/../node_modules/git-state/bin/isgit; then
-  branch=`$DIR/../node_modules/git-state/bin/branch`
+  if $DIR/../node_modules/git-state/bin/have-head &> /dev/null; then
+    branch=`$DIR/../node_modules/git-state/bin/branch`
+  else
+    branch='no-refs'
+  fi
 
   if $DIR/../node_modules/git-state/bin/issues; then
     printf "$tmpl" $branch

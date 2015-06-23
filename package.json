@@ -13,7 +13,7 @@
     "url": "https://github.com/watson/git-ps1.git"
   },
   "dependencies": {
-    "git-state": "^2.2.3"
+    "git-state": "^2.2.5"
   },
   "keywords": [
     "git",
