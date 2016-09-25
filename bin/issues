@@ -13,5 +13,4 @@ $DIR/../node_modules/git-state/bin/have-head &> /dev/null &&
 $DIR/../node_modules/git-state/bin/ahead &> /dev/null &&
 $DIR/../node_modules/git-state/bin/branch &> /dev/null &&
 $DIR/../node_modules/git-state/bin/dirty &> /dev/null &&
-$DIR/../node_modules/git-state/bin/untracked &> /dev/null &&
-$DIR/../node_modules/git-state/bin/stashes &> /dev/null
+$DIR/../node_modules/git-state/bin/untracked &> /dev/null
