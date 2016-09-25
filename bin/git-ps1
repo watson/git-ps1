@@ -21,7 +21,7 @@ if $DIR/../node_modules/git-state/bin/isgit; then
     branch='no-refs'
   fi
 
-  if $DIR/../node_modules/git-state/bin/issues; then
+  if $DIR/issues; then
     printf "$tmpl" $branch
   else
     printf "$tmpl" "$branch 👎 "
