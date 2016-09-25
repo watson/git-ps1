@@ -13,6 +13,9 @@ If you'd like more details on what the issues are I recommend installing
 and running [git-att](https://github.com/watson/git-att) in the root of
 your git repo.
 
+[![Build status](https://travis-ci.org/watson/git-ps1.svg?branch=master)](https://travis-ci.org/watson/git-ps1)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 ## Installation
 
 ```

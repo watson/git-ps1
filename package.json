@@ -3,7 +3,7 @@
   "version": "2.1.2",
   "description": "A simple command line prompt enhancer that shows the state of the current git repo (ps1)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "bin": {
     "git-ps1": "bin/git-ps1"
@@ -14,6 +14,9 @@
   },
   "dependencies": {
     "git-state": "^3.0.0"
+  },
+  "devDependencies": {
+    "standard": "^8.1.0"
   },
   "keywords": [
     "git",
