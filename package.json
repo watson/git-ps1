@@ -3,7 +3,9 @@
   "version": "2.1.5",
   "description": "A simple command line prompt enhancer that shows the state of the current git repo (ps1)",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "git-ps1": "bin/git-ps1"
@@ -13,7 +15,8 @@
     "url": "https://github.com/watson/git-ps1.git"
   },
   "dependencies": {
-    "git-state": "^3.0.0"
+    "git-state": "^3.0.0",
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "standard": "^8.1.0"
@@ -46,5 +49,6 @@
   "coordinates": [
     41.3264437,
     -72.9186525
-  ]
+  ],
+  "snyk": true
 }
