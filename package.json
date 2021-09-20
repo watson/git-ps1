@@ -16,7 +16,7 @@
     "git-state": "^3.0.0"
   },
   "devDependencies": {
-    "standard": "^8.1.0"
+    "standard": "^14.3.2"
   },
   "keywords": [
     "git",
