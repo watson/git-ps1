@@ -24,6 +24,6 @@ if $DIR/../node_modules/git-state/bin/isgit; then
   if $DIR/issues; then
     printf "$tmpl" $branch
   else
-    printf "$tmpl" "$branch 👎 "
+    printf "$tmpl" "$branch 👎"
   fi
 fi
